@@ -1,6 +1,6 @@
 {
-  "name": "FreightPilot TMS",
-  "short_name": "DYNA TMS",
+  "name": "FreightPilot Driver",
+  "short_name": "Driver App",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
