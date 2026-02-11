@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#0b0f14" />
+  <link rel="manifest" href="./manifest.json" />
+  <title>FreightPilot TMS - DYNA</title>
+  <style>
+    html,body{height:100%;margin:0;background:#0b0f14}
+    iframe{border:0;width:100%;height:100%}
+  </style>
+</head>
+<body>
+  <iframe
+    src="https://script.google.com/macros/s/AKfycbw9Pxl5TGehL77M3B1_g9IsJbnCEpcX0kQHpDT7rdcuIHFucZGoZZA2y7Vp5dOPvwSL/exec?pwa=1"
+    allow="clipboard-read; clipboard-write; geolocation"
+  ></iframe>
+
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("./sw.js");
+    }
+  </script>
+</body>
+</html>
